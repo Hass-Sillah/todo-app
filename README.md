@@ -19,7 +19,7 @@ This project is a **To-Do List App** built using **React**, **TypeScript**, and 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repository/todo-app.git
+   git clone https://github.ibm.com/Hassan-Sillah/todo-app.git
    cd todo-app
    ```
 
@@ -76,8 +76,8 @@ src/
     ToDoInput/ - Input form component
     ToDoList/ - List component to display tasks
     ToDoItem/ - Individual task item
-    _variables.scss - Shared style variables
-    global.scss - Global styles
+  _variables.scss - Shared style variables
+  global.scss - Global styles
   App.tsx - Main application logic
   main.tsx - Entry point
   vite.config.ts - Vite configuration
