@@ -1,0 +1,12 @@
+@use '../../styles/variables' as *;
+
+.todo-input {
+    &__form {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    &__button {
+      background-color: $primary-color;
+    }
+  }

@@ -1,0 +1,44 @@
+@use '../../styles/variables' as *;
+
+.todo-list {
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem;
+      border-bottom: 0.0625rem solid $primary-color;
+      align-items: center
+  
+    }
+  
+    &__content {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  
+    &__text--completed {
+      text-decoration: line-through;
+      color: #6f6f6f;
+    }
+  
+    &__actions {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__delete-icon {
+      padding: 0 0.25rem; 
+      cursor: pointer; 
+      transition: transform 0.2s ease-in-out;
+  
+      &:hover {
+        color: red; 
+      }
+    }
+  
+    .cds--checkbox-label-text {
+      max-width: 100%;            
+      word-break: break-word;    
+    }
+  }
+  
