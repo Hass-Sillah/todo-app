@@ -19,7 +19,7 @@ This project is a **To-Do List App** built using **React**, **TypeScript**, and 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.ibm.com/Hassan-Sillah/todo-app.git
+   git clone https://github.com/Hass-Sillah/todo-app.git
    cd todo-app
    ```
 
